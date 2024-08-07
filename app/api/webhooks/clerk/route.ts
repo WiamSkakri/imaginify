@@ -4,4 +4,4 @@ import { headers } from "next/headers";
 import { NextResponse } from "next/server";
 import { Webhook } from "svix";
 
-import { createUser } from "@/app/lib/actions/user.action";
+import { createUser } from "@/lib/actions/user.action";

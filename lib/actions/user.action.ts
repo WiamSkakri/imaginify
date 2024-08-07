@@ -1,7 +1,8 @@
 "use server";
 
-import User from "../models/user.model";
-import {connect} from "../mongodb";
+import User from "../database/models/user.model";
+import { connect } from "../database/mongoose";
+
 
 export async function createUser(user: any){
     try {
